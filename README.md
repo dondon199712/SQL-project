@@ -1,4 +1,4 @@
-<h1>Case study World Popluation</h1>
+<h1>SQL Case study World Popluation</h1>
 <h1>Contents</h1>
 
 <ul>
