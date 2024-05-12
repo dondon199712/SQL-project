@@ -29,7 +29,7 @@
 
 <h4><a name="database schema"></a>database schema</h4>
 
-<img>
+ <img src="User Churn/database.png" alt="User Churn Database Schema">
 
 <ol> 
   <li><h5> Which months will you be able to calculate churn for?</h5></li>
