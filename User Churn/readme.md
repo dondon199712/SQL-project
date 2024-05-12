@@ -1,5 +1,12 @@
-<h1>Churn Rates</h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <h1>Codeflix Churn Rate Analysis</h1>
+</head>
+<body>
+  
 <ul>
   <li><a href="#introduction">Introduction</a></li>
   <li><a href="#casestudyquestionsandsolutions">Case Study Questions & Solutions</a></li>
@@ -163,12 +170,21 @@ SELECT month,
 FROM status_aggregate;
 
 ```
- <p>Month with Lower Churn Rate:<br>
+<p>
+  
+<h5> Months with Lower Churn Rates:</h5> <br>
 
-March 2017 (0.17) and January (0.25)has the lower churn rate compared to other months <br>
-
- In this case, March for segment_30  and Janauary for segment_87 have a lower percentage of users stopping their subscription compared to the rest. 
- This indicates that Codeflix was able to retain a higher proportion of its users in March for segment_30 and Janauary for segment_87.
-</P>
+<img src="https://github.com/dondon199712/SQL-project/blob/main/User%20Churn/result.png" alt="Churn Rate by Month" width="500" />
 
 
+**Segment-Specific Analysis:**
+Looking deeper, we see that:
+
+* **March 2017:** Segment_30 has the lowest churn rate (0.17).
+* **January:** Segment_87 has the lowest churn rate (0.25). <br>
+ <br>
+This indicates that Codeflix was more successful at retaining users in these specific segments during those months.</p>
+
+
+</body>
+</html>
