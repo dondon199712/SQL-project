@@ -1,4 +1,4 @@
-<h1>SQL Case study User Churn</h1>
+<h1>SQL Case study World Popluation</h1>
 <h1>Contents</h1>
 
 <ul>
@@ -7,32 +7,12 @@
 
 
 <h1><a name="introduction">Introduction</a></h1>
-<p>Codeflix, a new streaming platform for learning videos, wants to understand how many users stop subscribing over time (churn rate). We'll be helping them answer these key questions:
-
-1. Company Background:
-
-How long has Codeflix been around?
-For which months can we calculate churn?
-Are there different user groups (segments) on the platform?
-
-2. Churn Trend:
-
-How has the overall churn rate changed since launch?
-3. Segment Comparison:
-
-Do different user segments churn at different rates?
-4. Growth Focus:
-
-Based on churn, which user segment should Codeflix prioritize for growth?
-
-
-
-
+<p>You’ll work with a dataset of world population by country data from recent years. You’ll write queries to retrieve interesting data and answer a set of specific questions.
 
 
 <h1><a name="casestudyquestionsandsolutions"></a>Case Study Questions & Solutions</h1>
 
-<h4><a name="backgrounds"></a>Analysis</h4>
+<h4><a name="a.digitalanalysis"></a>A. Digital Analysis</h4>
 <ol> 
   <li><h5>What is the largest population size for Gabon in this dataset? </h5></li>
 
@@ -114,5 +94,6 @@ AND year = 2010;
    <h6>Answer:2000= 214.67661
 2010= 242.96834
 </h6>
+
 
 
